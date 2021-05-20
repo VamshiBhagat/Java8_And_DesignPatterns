@@ -15,6 +15,6 @@ public class CarFactory {
 
 	public static Class getCarObjectByType(String type) {
 		Object object = map.get(type);
-		return ;
+		return object;
 	}
 }
